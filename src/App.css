@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.common-btn {
+  position: absolute;
+  width: 122px;
+height: 30px;
+
+border:none;
+
+background: #2CAEE2;
+border-radius: 72px;
+}
+.common-btn:hover{
+  padding: 10px;
+}
