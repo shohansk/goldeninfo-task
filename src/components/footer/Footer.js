@@ -5,7 +5,8 @@ import Stack from 'react-bootstrap/Stack';
 const Footer = () => {
   
     return (
-        <div className='container footer-bg' id="con">
+        <div className='footer-bg'>
+            <div className='container ' id="con">
         <img className='p-1' height={35} src="/images/docicon.PNG" alt="" />
            <img  className='p-1' height={35} src="/images/TM.PNG" alt="" />
        <div className="row d-flex justify-content-center align-items-center">
@@ -92,6 +93,7 @@ const Footer = () => {
        <h6 className='text-center text-primary'><span className='p-1'>&#169;</span> Copyright TM 2021. All rights reserved. Created by Golden Infotech.</h6>
        
    </div>
+        </div>
     );
 };
 
