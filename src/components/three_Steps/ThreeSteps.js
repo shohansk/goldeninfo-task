@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ThreeSteps extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="mt-5">
                  <div className='text-center'>
                 <h3>Only Three Easy Steps to Follow</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/> industry. Lorem Ipsum has been the industry's standard</p>

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
+
+
 class TopHeader extends Component {
     render() {
         return (
@@ -18,8 +20,9 @@ class TopHeader extends Component {
             //          </NavDropdown>
             //     </div>
             // </div>
-           <div className="fluid shadow-sm px-3  bg-white rounded">
+           <div className="container-fluid shadow-sm px-3  bg-white rounded ">
                 <Navbar className=' d-flex justify-content-center align-items-center'>
+                
                 <Container >
                 <Navbar.Brand href="#home">
                      <img className='p-1' height={25} src="/images/docicon.PNG" alt="" />
@@ -28,36 +31,47 @@ class TopHeader extends Component {
                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
-                        <NavDropdown title="Dropdown"  id="collasible-nav-dropdown">
+
+                       
+                            
+                        <NavDropdown title="Doctor"  id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                        <NavDropdown  title="Services" id="services">
+                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                           
+                        </NavDropdown>
+                        <NavDropdown title="Pharmacy Owner" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
+                        <Nav.Link href="#us">About Us</Nav.Link>
+                        <Nav.Link href="#blog">Blog</Nav.Link>
+                        <Nav.Link href="#con">Contact</Nav.Link>
+                        <Nav.Link href="#faq">FAQ</Nav.Link>
                         </Nav>
                         <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            <button className=' common-btn' >Login</button>
+                        
+                         <div className='d-flex justify-content-center align-items-center'> 
+                             <img  height={20} src="/images/Vector (10).PNG" alt="" />
+                        <Nav.Link href="#deets">
+                            En
+                            
+                        </Nav.Link>
+                       <img height={5} src="/images/Vector (9).PNG" alt="" />
+                       </div>
+                        <Nav.Link eventKey={5} href="#memes">
+                            <button className='common-btn px-3 my-2' >Login</button>
                         </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
